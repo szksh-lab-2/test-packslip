@@ -32,7 +32,7 @@ jobs:
       - run: |
           packslip create \
             --project github.com/szksh-lab-3/test-packslip \
-            --version "${GITHUB_REF_NAME}" \
+            --version "${GITHUB_REF_NAME#v}" \
             --bin hello \
             --out dist \
             dist/*.tar.gz
