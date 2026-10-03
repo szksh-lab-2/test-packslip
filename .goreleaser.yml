@@ -1,0 +1,18 @@
+---
+version: 2
+project_name: hello
+archives:
+  - name_template: "{{.ProjectName}}_{{.Os}}_{{.Arch}}"
+checksum:
+  name_template: "{{ .ProjectName }}_checksums.txt"
+builds:
+  - binary: hello
+    main: main.go
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - arm64
