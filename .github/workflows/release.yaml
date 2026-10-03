@@ -25,6 +25,9 @@ jobs:
       - run: goreleaser --version
         env:
           AQUA_GITHUB_TOKEN: ${{ github.token }}
+      - run: packslip --version
+        env:
+          AQUA_GITHUB_TOKEN: ${{ github.token }}
       - run: goreleaser release --skip publish --clean
       - run: |
           packslip create \
