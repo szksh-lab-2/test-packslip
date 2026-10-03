@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-26.04
     timeout-minutes: 20
     permissions:
+      contents: write
       id-token: write      # Sign with the workflow's identity.
       attestations: write  # Attest the downloaded files.
     steps:
@@ -31,7 +32,7 @@ jobs:
       - run: goreleaser release --skip publish --clean
       - run: |
           packslip create \
-            --project github.com/szksh-lab-2/test-packslip \
+            --project "github.com/${GITHUB_REPOSITORY}" \
             --version "${GITHUB_REF_NAME#v}" \
             --bin hello \
             --out dist \
