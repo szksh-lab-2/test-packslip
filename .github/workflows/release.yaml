@@ -31,7 +31,7 @@ jobs:
       - run: goreleaser release --skip publish --clean
       - run: |
           packslip create \
-            --project github.com/szksh-lab-3/test-packslip \
+            --project github.com/szksh-lab-2/test-packslip \
             --version "${GITHUB_REF_NAME#v}" \
             --bin hello \
             --out dist \
