@@ -1,0 +1,59 @@
+{
+  "checksums": [
+    {
+      "id": "github_release/github.com/goreleaser/goreleaser/v2.18.2/goreleaser_Darwin_all.tar.gz",
+      "checksum": "4BFD26942AA0F78E275CAD3E49144A7C5CE2E8A34F7D0E9D34C718125766BA12",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/goreleaser/goreleaser/v2.18.2/goreleaser_Linux_arm64.tar.gz",
+      "checksum": "A71681B29194F08F057A68CFCAA5C6B15D907A83A2622C51900C4FAFF828F322",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/goreleaser/goreleaser/v2.18.2/goreleaser_Linux_x86_64.tar.gz",
+      "checksum": "0A96EDC9D9BC594E4A41CC4D59467C182062910AB24D9D1F6DD7B667D32606D3",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/goreleaser/goreleaser/v2.18.2/goreleaser_Windows_arm64.zip",
+      "checksum": "D2AEBC59BEE96078C1F529160F170E02FFC96FD5D31B5E33EEF66CDD7256F602",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/goreleaser/goreleaser/v2.18.2/goreleaser_Windows_x86_64.zip",
+      "checksum": "DE61A8E7A064ABB14210B16C942FACD299643D83341C5CD293F19155A7C8B95F",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/jdx/packslip/v1.4.0/packslip-v1.4.0-darwin-arm64.tar.xz",
+      "checksum": "8508708FFA43A8883393305230A5D81F42699B18FBFB059458EBF27C8EFBC97C",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/jdx/packslip/v1.4.0/packslip-v1.4.0-linux-arm64.tar.xz",
+      "checksum": "586E149456E33BA0445CD93B5987C64E566E0EACCA9062997130BFABE04B185D",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/jdx/packslip/v1.4.0/packslip-v1.4.0-linux-x64.tar.xz",
+      "checksum": "A3B0038562695545109D697642035C0FE23AB3AEED28C5142136468D24020177",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/jdx/packslip/v1.4.0/packslip-v1.4.0-windows-arm64.zip",
+      "checksum": "77E218C3B87625686FFBACAE93733BA40FACD937EF91E8B6AD123EA2B015BEC0",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/jdx/packslip/v1.4.0/packslip-v1.4.0-windows-x64.zip",
+      "checksum": "CF9D38E8DDC04EF35DEA4F3E825E122323EB0C0682546670CAB28FE7B19965D4",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.571.0/registry.yaml",
+      "checksum": "D69A2FADED10074D6CE0F456FEE586F094592DE1700E97FBDFF6C7DC4EF79290",
+      "algorithm": "sha256"
+    }
+  ]
+}
